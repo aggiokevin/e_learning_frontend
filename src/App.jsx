@@ -68,7 +68,7 @@ function AppContent() {
       <main className="flex-grow">
         <Routes>
           {/* Public Routes */}
-          <Route path="/" element={<CourseCatalog />} />
+          <Route path="/" element={<AdminDashboard />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/courses" element={<CourseCatalog />} />
